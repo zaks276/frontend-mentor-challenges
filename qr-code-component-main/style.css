@@ -18,10 +18,11 @@ body {
     justify-content: center;
 }
 
-h2 {
+h1 {
     color: hsl(218, 44%, 22%);
     font-weight: bold;
     padding: 10px;
+    font-size: x-large;
 }
 
 p {
