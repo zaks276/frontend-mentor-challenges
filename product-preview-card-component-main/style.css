@@ -144,6 +144,10 @@ button:hover {
         padding: 30px 60px 0 30px;
     }
 
+    h1 {
+        padding: 15px 20px 15px 0;
+    }
+
     button {
         width: 237px;
     }
