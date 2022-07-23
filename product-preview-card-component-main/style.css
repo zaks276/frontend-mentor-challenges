@@ -121,7 +121,7 @@ button:hover {
     background-color: hsl(158, 36%, 18%);
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 650px) {
     .container {
         width: 600px;
         height: 450px;
