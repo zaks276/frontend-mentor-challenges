@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+}
+
+.container {
+    width: 355px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.NFT {
+    width: 305px;
+    height: 305px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+    padding: 20px 0 20px 0;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.discription {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    padding: 20px 0 20px 18px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 50%;
+}
+
+.time {
+    width: 50%;
+    padding: 20px 0 15px 72px;
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+hr {
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    color: hsl(215, 32%, 27%);
+    border-width: 0;
+}
+
+.artist-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.NFT-attribution {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    padding: 5px 0 0 15px;
+}
+
+.artist-name {
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    padding: 5px 0 0 4px;
+}
+
+.artist-name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.ethereum-icon {
+    height: 18px;
+    width: 11px;
+    position: absolute;
+    transform: translate(0px, 20px);
+}
+
+.clock-icon {
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    transform: translate(200px, 22px);
+}
+
+.overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 305px;
+    height: 305px;
+    border-radius: 10px;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    opacity: 0;
+}
+
+.overlay:hover {
+    cursor: pointer;
+    opacity: 1;
+}
