@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
+:root {
+    --white: hsl(0, 0%, 100%);
+    --cyan: hsl(178, 100%, 50%);
+    --light-blue: hsl(215, 51%, 70%);
+    --navy: hsl(217, 54%, 11%);
+    --light-navy: hsl(216, 50%, 16%);
+    --grayish-blue: hsl(215, 32%, 27%);
+    --opaque-cyan: hsla(178, 100%, 50%, 0.5);
+    --opaque-black: hsla(0, 0%, 0%, 0.3);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -12,19 +23,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: hsl(217, 54%, 11%);
+    background-color: var(--navy);
     font-size: 18px;
 }
 
 .container {
     width: 355px;
     height: 600px;
-    background-color: hsl(216, 50%, 16%);
+    background-color: var(--light-navy);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     padding: 25px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 40px var(--opaque-black);
 }
 
 .NFT {
@@ -35,17 +46,17 @@ body {
 
 h1 {
     font-size: 22px;
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
     padding: 20px 0 20px 0;
 }
 
 h1:hover {
     cursor: pointer;
-    color: hsl(178, 100%, 50%);
+    color: var(--cyan);
 }
 
 .discription {
-    color: hsl(215, 51%, 70%);
+    color: var(--light-blue);
     font-weight: 300;
     line-height: 1.5;
 }
@@ -56,7 +67,7 @@ h1:hover {
 }
 
 .price {
-    color: hsl(178, 100%, 50%);
+    color: var(--cyan);
     padding: 20px 0 20px 18px;
     font-weight: 600;
     font-size: 16px;
@@ -66,15 +77,15 @@ h1:hover {
 .time {
     width: 50%;
     padding: 20px 0 15px 72px;
-    color: hsl(215, 51%, 70%);
+    color: var(--light-blue);
     font-size: 16px;
     font-weight: 300;
 }
 
 hr {
     height: 1px;
-    background-color: hsl(215, 32%, 27%);
-    color: hsl(215, 32%, 27%);
+    background-color: var(--grayish-blue);
+    color: var(--grayish-blue);
     border-width: 0;
 }
 
@@ -89,7 +100,7 @@ hr {
     height: 35px;
     border: 1px solid;
     border-radius: 50%;
-    border-color: hsl(0, 0%, 100%);
+    border-color: var(--white);
 }
 
 .attribution {
@@ -97,32 +108,32 @@ hr {
     bottom: 0;
     padding: 5px;
     font-size: 15px;
-    color: hsl(215, 51%, 70%);
+    color: var(--light-blue);
 }
 
 a {
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
 }
 
 a:hover {
-    color: hsl(178, 100%, 50%);
+    color: var(--cyan);
 }
 
 .NFT-attribution {
-    color: hsl(215, 51%, 70%);
+    color: var(--light-blue);
     font-size: 16px;
     padding: 5px 0 0 15px;
 }
 
 .artist-name {
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
     font-size: 16px;
     padding: 5px 0 0 4px;
 }
 
 .artist-name:hover {
     cursor: pointer;
-    color: hsl(178, 100%, 50%);
+    color: var(--cyan);
 }
 
 .ethereum-icon {
@@ -147,7 +158,7 @@ a:hover {
     width: 305px;
     height: 305px;
     border-radius: 10px;
-    background-color: hsla(178, 100%, 50%, 0.5);
+    background-color: var(--opaque-cyan);
     opacity: 0;
 }
 
