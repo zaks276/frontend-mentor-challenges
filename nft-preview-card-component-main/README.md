@@ -11,12 +11,12 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Screenshot
 
-![NFT preview card project screenshot](/images/screenshot.png)
+![NFT preview card project screenshot](./images/screenshot.png)
 
 ## Links
 
--   [Solution](https://your-solution-url.com)
--   [Live Site](https://your-live-site-url.com)
+-   [Solution](https://github.com/zaks276/frontend-mentor-challenges/tree/main/nft-preview-card-component-main)
+-   [Live Site](https://mzk-frontend-mentor-challenges.netlify.app/nft-preview-card-component-main)
 
 ## Built with
 
