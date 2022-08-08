@@ -29,7 +29,7 @@ Users should be able to:
 ### Moblie Screenshots
 
 ![Rating state mobile screenshot](./images/mobile-screenshot.png)
-![Thank you state mobile screenshot](./images/mobile-screenshot-2.png)
+![Thank you state mobile screenshot](./images/mobile-screenshot-3.png)
 
 ### Desktop Screenshots
 
