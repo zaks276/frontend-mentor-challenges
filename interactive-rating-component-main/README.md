@@ -50,6 +50,7 @@ Users should be able to:
 -   Flexbox
 -   Mobile-first workflow
 -   Javascript
+-   CSS Animations
 
 ### What I learned
 
@@ -58,7 +59,7 @@ During this project I learned all about radio buttons, namely how to style them 
 ### Useful resources
 
 -   [CSS Animation - Button with Sliding Background](https://codepen.io/Chen0682/pen/Rveoom) - This guide thought me how to implement the submit button transition animation.
--   [CSS Animations](https://www.w3schools.com/css/css3_animations.asp) - This is a helpful and simple introduction into CSS Animation.
+-   [CSS Animations](https://www.w3schools.com/css/css3_animations.asp) - This is a helpful and simple introduction into CSS Animations.
 -   [How To Create a Flip Card With CSS](https://www.w3schools.com/howto/howto_css_flip_card.asp) - This guide was the inspiration for my flip animation  on displaying the thank you block.
 
 ## Author
