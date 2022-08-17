@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--dark-blue);
+}
+
+.container {
+    width: 345px;
+    max-height: 350px;
+    background-color: var(--dark-grayish-blue);
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advice-heading {
+    color: var(--neon-green);
+    font-size: 11px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    padding: 40px 40px 25px 40px;
+}
+
+.advice-id {
+    color: inherit;
+    font-size: inherit;
+}
+
+.advice {
+    color: var(--light-cyan);
+    font-size: 23px;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+}
+
+.desktop-divider {
+    display: none;
+}
+
+.mobile-divider {
+    padding-top: 25px;
+}
+
+.advice-button {
+    background-color: var(--neon-green);
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    position: relative;
+    bottom: -35px;
+    outline: none;
+    border: none;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    font-size: 11px;
+    color: var(--light-cyan);
+}
+
+a {
+    color: var(--neon-green);
+}
+
+@media only screen and (min-width: 450px) {
+    .container {
+        width: 543px;
+        max-height: 375px;
+        border-radius: 15px;
+    }
+
+    .advice-heading {
+        font-size: 13px;
+        padding: 50px 40px 25px 40px;
+    }
+
+    .advice {
+        font-size: 28px;
+        padding: 0 40px 0 40px;
+    }
+
+    .desktop-divider {
+        display: block;
+        padding-top: 40px;
+    }
+
+    .mobile-divider {
+        display: none;
+    }
+
+    .advice-button:hover {
+        cursor: pointer;
+        box-shadow: 0 0 40px var(--neon-green);
+        transition: ease-in-out 0.3s;
+        width: 70px;
+        height: 70px;
+    }
+}
