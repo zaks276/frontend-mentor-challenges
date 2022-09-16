@@ -331,7 +331,7 @@ a {
 
     form {
         grid-template-columns: 80px 80px auto;
-        /*margin-right: 200px;*/
+        margin-right: 200px;
     }
 
     .error-message {
