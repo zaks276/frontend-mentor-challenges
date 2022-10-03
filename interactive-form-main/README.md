@@ -41,8 +41,8 @@ Users should be able to:
 
 ### Links
 
--   [Solution](https://your-solution-url.com)
--   [Live Site](https://your-live-site-url.com)
+-   [Solution](https://github.com/zaks276/frontend-mentor-challenges/tree/main/interactive-form-main)
+-   [Live Site](https://mzk-frontend-mentor-challenges.netlify.app/interactive-form-main)
 
 ## My process
 
