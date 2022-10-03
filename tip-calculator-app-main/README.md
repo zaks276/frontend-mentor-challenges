@@ -27,23 +27,19 @@ Users should be able to:
 ### Mobile Screenshots
 
 ![Mobile screenshot of the tip calculator app](./images/mobile-screenshot-1.png)
-
 ![Mobile screenshot of the tip calculator app in a complete state](./images/mobile-screenshot-2.png)
-
 ![Mobile screenshot of the tip calculator app demonstrating error checking](./images/mobile-screenshot-3.png)
 
 ### Desktop Screenshots
 
 ![Desktop screenshot of the tip calculator app](./images/desktop-screenshot-1.png)
-
 ![Desktop screenshot of the tip calculator app in a complete state](./images/desktop-screenshot-2.png)
-
 ![Desktop screenshot of the tip calculator app demonstrating error checking](./images/desktop-screenshot-3.png)
 
 ### Links
 
--   [Solution](https://your-solution-url.com)
--   [Live Site](https://your-live-site-url.com)
+-   [Solution](https://github.com/zaks276/frontend-mentor-challenges/tree/main/tip-calculator-app-main)
+-   [Live Site](https://mzk-frontend-mentor-challenges.netlify.app/tip-calculator-app-main/)
 
 ## My process
 
