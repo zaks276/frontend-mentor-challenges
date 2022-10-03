@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- displays site properly based on user's device -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="script.js" defer></script>
+        <title>Frontend Mentor | Tip calculator app</title>
+    </head>
+    <body>
+        <img class="logo" src="images/logo.svg" alt="tip calculator logo" />
+        <main class="main-container">
+            <div class="input-container">
+                <div class="input-headings-container">
+                    <label class="input-heading" for="bill">Bill</label>
+                    <p class="error-message" data-bill-error></p>
+                </div>
+                <input
+                    class="number-input"
+                    type="number"
+                    name="bill"
+                    id="bill"
+                    placeholder="0"
+                    data-bill
+                />
+                <img
+                    class="bill-icon"
+                    src="images/icon-dollar.svg"
+                    alt="dollar icon"
+                />
+                <div class="input-headings-container">
+                    <p class="input-heading">Select tip %</p>
+                    <p class="error-message" data-tip-error></p>
+                </div>
+                <div class="tip-container">
+                    <input
+                        class="radio-button"
+                        type="radio"
+                        name="tip"
+                        id="five-percent"
+                        value="5"
+                        data-tip-percentage
+                    />
+                    <label class="tip-button" for="five-percent">5%</label>
+                    <input
+                        class="radio-button"
+                        type="radio"
+                        name="tip"
+                        id="ten-percent"
+                        value="10"
+                        data-tip-percentage
+                    />
+                    <label class="tip-button" for="ten-percent">10%</label>
+                    <input
+                        class="radio-button"
+                        type="radio"
+                        name="tip"
+                        id="fifteen-percent"
+                        value="15"
+                        data-tip-percentage
+                    />
+                    <label class="tip-button" for="fifteen-percent">15%</label>
+                    <input
+                        class="radio-button"
+                        type="radio"
+                        name="tip"
+                        id="twenty-five-percent"
+                        value="25"
+                        data-tip-percentage
+                    />
+                    <label class="tip-button" for="twenty-five-percent"
+                        >25%</label
+                    >
+                    <input
+                        class="radio-button"
+                        type="radio"
+                        name="tip"
+                        id="fifty-percent"
+                        value="50"
+                        data-tip-percentage
+                    />
+                    <label class="tip-button" for="fifty-percent">50%</label>
+                    <input
+                        class="number-input"
+                        type="number"
+                        name="custom-tip"
+                        id="custom-tip"
+                        placeholder="Custom"
+                        data-custom-percentage
+                    />
+                </div>
+                <div class="input-headings-container">
+                    <label class="input-heading" for="people"
+                        >Number of People</label
+                    >
+                    <p class="error-message" data-people-error></p>
+                </div>
+                <input
+                    class="number-input"
+                    type="number"
+                    name="people"
+                    id="people"
+                    placeholder="0"
+                    data-people
+                />
+                <img
+                    class="people-icon"
+                    src="images/icon-person.svg"
+                    alt="person icon"
+                />
+            </div>
+            <div class="output-container">
+                <div class="output">
+                    <div class="tip-output-container">
+                        <div class="headings-container">
+                            <p class="output-big-heading">Tip Amount</p>
+                            <p class="output-small-heading">/ person</p>
+                        </div>
+                        <p data-per-person-tip class="amount">$0.00</p>
+                    </div>
+                    <div class="total-output-container">
+                        <div class="headings-container">
+                            <p class="output-big-heading">Total</p>
+                            <p class="output-small-heading">/ person</p>
+                        </div>
+                        <p data-total class="amount">$0.00</p>
+                    </div>
+                </div>
+                <button data-reset>Reset</button>
+            </div>
+        </main>
+        <footer class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by
+            <a href="https://github.com/zaks276">Mohammed Zakaria Khan</a>.
+        </footer>
+    </body>
+</html>
