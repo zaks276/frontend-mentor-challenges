@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- displays site properly based on user's device -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Expenses chart component</title>
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="styles.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+        <script src="data.json"></script>
+        <script type="module" src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <header class="header-container">
+                <div class="balance-container">
+                    <p>My balance</p>
+                    <p class="balance">$921.48</p>
+                </div>
+                <img class="logo" src="images/logo.svg" alt="logo" />
+            </header>
+            <main class="data-container">
+                <p class="heading">Spending - Last 7 days</p>
+                <div class="chart-container">
+                    <canvas id="chart"></canvas>
+                </div>
+                <hr />
+                <div class="total-percentage-container">
+                    <div class="total-container">
+                        <p class="info">Total this month</p>
+                        <p class="total">$478.33</p>
+                    </div>
+                    <div class="percentage-container">
+                        <p class="percentage">+2.4%</p>
+                        <p class="info">from last month</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!--My balance $921.48 Spending - Last 7 days mon tue wed thu fri sat sun
+        Total this month $478.33 +2.4% from last month-->
+
+        <footer class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by
+            <a href="https://github.com/zaks276">Mohammed Zakaria Khan</a>.
+        </footer>
+    </body>
+</html>

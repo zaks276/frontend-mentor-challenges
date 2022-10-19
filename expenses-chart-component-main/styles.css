@@ -1,0 +1,197 @@
+:root {
+    --soft-red: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --very-pale-orange: hsl(33, 100%, 98%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+
+.header-container {
+    width: 345px;
+    height: 100px;
+    background-color: var(--soft-red);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    margin: 0;
+}
+
+.balance {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.balance-container {
+    color: var(--very-pale-orange);
+    font-size: 15px;
+    margin: 20px 0px 25px 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 43px;
+    position: relative;
+    top: 28px;
+    left: 150px;
+}
+
+.data-container {
+    width: 345px;
+    height: 425px;
+    background-color: var(--very-pale-orange);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    color: var(--dark-brown);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 24px 0px 25px 22px;
+}
+
+.chart-container {
+    width: 312px;
+    height: 205px;
+    margin-left: 15px;
+}
+
+hr {
+    width: 300px;
+    background-color: var(--cream);
+    color: var(--cream);
+    border-width: 0;
+    height: 2px;
+    margin-top: 20px;
+}
+
+.total-percentage-container {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 22px 22px 22px;
+}
+
+.info {
+    color: var(--medium-brown);
+    font-size: 15px;
+}
+
+.total {
+    color: var(--dark-brown);
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 4px;
+}
+
+.percentage-container {
+    width: 120px;
+    margin: 18px 0px 0px 75px;
+}
+
+.percentage {
+    color: var(--dark-brown);
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 65px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+    color: var(--dark-brown);
+}
+
+a {
+    color: var(--cyan);
+}
+
+@media only screen and (min-width: 550px) {
+    .header-container {
+        width: 540px;
+        height: 125px;
+        border-radius: 20px;
+        margin-bottom: 25px;
+    }
+
+    .balance-container {
+        margin: 28px 32px 28px 32px;
+        font-size: 18px;
+    }
+
+    .balance {
+        margin-top: 9px;
+        font-size: 32px;
+    }
+
+    .logo {
+        width: 74px;
+        height: 48px;
+        left: 248px;
+        top: 40px;
+    }
+
+    .data-container {
+        width: 540px;
+        height: 515px;
+        border-radius: 20px;
+    }
+
+    .heading {
+        font-size: 32px;
+        margin: 32px 0px 50px 40px;
+    }
+
+    .chart-container {
+        width: 476px;
+        height: 200px;
+        margin-left: 32px;
+    }
+
+    hr {
+        width: 455px;
+        margin-top: 25px;
+    }
+
+    .total-percentage-container {
+        margin: 25px 0px 0px 40px;
+    }
+
+    .info {
+        font-size: 18px;
+    }
+
+    .total {
+        font-size: 46px;
+        margin-top: 2px;
+    }
+
+    .percentage-container {
+        width: 150px;
+        margin: 30px 0px 0px 154px;
+    }
+
+    .percentage {
+        font-size: 18px;
+        margin-left: 80px;
+    }
+}
