@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
--   [Solution](https://your-solution-url.com)
--   [Live Site](https://your-live-site-url.com)
+-   [Solution](https://github.com/zaks276/frontend-mentor-challenges/tree/main/expenses-chart-component-main)
+-   [Live Site](https://mzk-frontend-mentor-challenges.netlify.app/expenses-chart-component-main/)
 
 ## My process
 
