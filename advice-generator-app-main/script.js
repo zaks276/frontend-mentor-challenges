@@ -3,7 +3,7 @@ const adviceQuote = document.querySelector('[data-advice]');
 const adviceButton = document.querySelector('[data-advice-button]');
 
 async function getAdvice() {
-    let res = await fetch('https://api.adviceslip.com/advice');
+    let res = await fetch('https://api.adviceslip.com/advice', { cache: "no-cache" });
     let data = await res.json();
 
     adviceId.textContent = data.slip.id;
